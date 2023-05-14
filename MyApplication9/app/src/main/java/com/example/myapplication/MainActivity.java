@@ -24,6 +24,7 @@ import java.util.List;
 import com.example.myapplication.fragment.GameFragment;
 import com.example.myapplication.fragment.MenuFragment;
 
+//класс, отвечающий за логику активности
 public class MainActivity extends AppCompatActivity {
 
     private MaterialButton btnMenu;
