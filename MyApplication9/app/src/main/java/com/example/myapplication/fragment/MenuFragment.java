@@ -30,7 +30,9 @@ public class MenuFragment extends Fragment {
     private CheckBox musicOnOff;
     @Nullable
     @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+    public View onCreateView(@NonNull LayoutInflater inflater,
+                             @Nullable ViewGroup container,
+                             @Nullable Bundle savedInstanceState) {
         mainActivity = ((MainActivity)getActivity());
         ResultsDBOpenHelper resultsDBOpenHelper = new ResultsDBOpenHelper(getContext());
         List<Results> resultsList = resultsDBOpenHelper.findAll();

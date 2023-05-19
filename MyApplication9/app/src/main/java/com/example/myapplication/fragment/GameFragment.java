@@ -120,7 +120,8 @@ public class GameFragment extends Fragment {
     public boolean checkResult(){
         for (int i = 0; i < cards.length; i++) {
             for (int j = 0; j < cards[i].length; j++) {
-                if (cards[i][j].isRight() && cards[i][j].isClicked() ||  !cards[i][j].isRight() && !cards[i][j].isClicked()) return false;
+                if (cards[i][j].isRight() && cards[i][j].isClicked() ||  !cards[i][j].isRight() && !cards[i][j].isClicked())
+                    return false;
             }
         }
         return true;

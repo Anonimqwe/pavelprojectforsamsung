@@ -39,16 +39,6 @@ public class MainActivity extends AppCompatActivity {
     private ResultsDBOpenHelper resultsDBOpenHelper;
     private boolean enableMusic;
 
-    public void startMusic() {
-        if (mediaPlayer != null)
-            mediaPlayer.start();
-    }
-
-    public void pauseMusic() {
-        if (mediaPlayer != null)
-            mediaPlayer.pause();
-    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -130,7 +120,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+    public void startMusic() {
+        if (mediaPlayer != null)
+            mediaPlayer.start();
+    }
 
+    public void pauseMusic() {
+        if (mediaPlayer != null)
+            mediaPlayer.pause();
+    }
     public void initCardFirstPattern() {
         ImageView imageViewBottom, imageViewRight;
         imageViewBottom = findViewById(R.id.iv_bottom);

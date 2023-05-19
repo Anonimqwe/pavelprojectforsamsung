@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Sherlock 1991</string>
+    <string name="time">Time: </string>
+    <string name="check">check</string>
+    <string name="restart">restart</string>
+    <string name="menu">menu</string>
+    <string name="no_name">no name</string>
+    <string name="accept">accept</string>
+    <string name="enable_music">Enable music</string>
 </resources>
