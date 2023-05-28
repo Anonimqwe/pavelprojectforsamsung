@@ -133,8 +133,8 @@ public class MainActivity extends AppCompatActivity {
         ImageView imageViewBottom, imageViewRight;
         imageViewBottom = findViewById(R.id.iv_bottom);
         imageViewRight = findViewById(R.id.iv_right);
-        imageViewRight.setImageDrawable(AppCompatResources.getDrawable(this, R.drawable.t));
-        imageViewBottom.setImageDrawable(AppCompatResources.getDrawable(this, R.drawable.f));
+        imageViewRight.setImageDrawable(AppCompatResources.getDrawable(this, R.drawable.r1));
+        imageViewBottom.setImageDrawable(AppCompatResources.getDrawable(this, R.drawable.d1));
     }
 
     public String loadUsername() {

@@ -7,4 +7,5 @@
     <string name="no_name">no name</string>
     <string name="accept">accept</string>
     <string name="enable_music">Enable music</string>
+    <string name="rules">The condition line corresponds to the line of the playing field. The condition column corresponds to the three columns of the playing field.</string>
 </resources>

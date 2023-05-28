@@ -68,52 +68,61 @@ public class GameFragment extends Fragment {
     }
 
     private void initCardFirstPattern() {
-        cards[0][0].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.face1));
-        cards[0][1].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.face2));
+        cards[0][0].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.food1));
+        cards[0][1].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.face1));
         cards[0][2].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.face3));
-        cards[0][3].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.face1));
-        cards[0][4].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.face2));
-        cards[0][5].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.face3));
-        cards[0][6].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.face1));
-        cards[0][7].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.face2));
-        cards[0][8].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.face3));
+        cards[0][3].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.transport2));
+        cards[0][4].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.face3));
+        cards[0][5].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.face1));
+        cards[0][6].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.face3));
+        cards[0][7].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.face1));
+        cards[0][8].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.face6));
 
-        cards[1][0].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.house1));
+        cards[1][0].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.house4));
         cards[1][1].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.house2));
-        cards[1][2].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.house3));
+        cards[1][2].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.house1));
         cards[1][3].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.house1));
         cards[1][4].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.house2));
-        cards[1][5].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.house3));
-        cards[1][6].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.house1));
-        cards[1][7].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.house2));
-        cards[1][8].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.house3));
+        cards[1][5].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.food9));
+        cards[1][6].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.house9));
+        cards[1][7].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.house4));
+        cards[1][8].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.house1));
 
-        cards[2][0].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.transport1));
-        cards[2][1].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.transport2));
-        cards[2][2].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.transport3));
-        cards[2][3].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.transport1));
-        cards[2][4].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.transport2));
-        cards[2][5].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.transport3));
-        cards[2][6].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.transport1));
-        cards[2][7].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.transport2));
-        cards[2][8].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.transport3));
+        cards[2][0].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.transport2));
+        cards[2][1].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.transport6));
+        cards[2][2].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.transport1));
+        cards[2][3].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.transport2));
+        cards[2][4].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.transport3));
+        cards[2][5].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.transport5));
+        cards[2][6].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.food1));
+        cards[2][7].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.transport6));
+        cards[2][8].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.food2));
 
-        cards[3][0].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.transport1));
-        cards[3][1].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.transport2));
-        cards[3][2].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.transport3));
-        cards[3][3].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.transport1));
-        cards[3][4].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.transport2));
-        cards[3][5].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.transport3));
-        cards[3][6].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.transport1));
-        cards[3][7].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.transport2));
-        cards[3][8].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.transport3));
+        cards[3][0].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.food9));
+        cards[3][1].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.food2));
+        cards[3][2].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.food8));
+        cards[3][3].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.food2));
+        cards[3][4].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.food1));
+        cards[3][5].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.food5));
+        cards[3][6].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.food4));
+        cards[3][7].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.food7));
+        cards[3][8].setImageDrawable(AppCompatResources.getDrawable(getActivity(), R.drawable.house5));
 
         cards[0][2].setRight(true);
-        cards[1][3].setRight(true);
-        cards[1][6].setRight(true);
-        cards[2][4].setRight(true);
-        cards[3][7].setRight(true);
+        cards[0][5].setRight(true);
+        cards[0][8].setRight(true);
 
+        cards[1][0].setRight(true);
+        cards[1][4].setRight(true);
+        cards[1][6].setRight(true);
+
+        cards[2][2].setRight(true);
+        cards[2][3].setRight(true);
+        cards[2][7].setRight(true);
+
+        cards[3][2].setRight(true);
+        cards[3][3].setRight(true);
+        cards[3][6].setRight(true);
 
         ((MainActivity)getActivity()).initCardFirstPattern();
     }
