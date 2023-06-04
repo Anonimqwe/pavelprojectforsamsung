@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private MaterialButton btnRestart;
     private Chronometer chrTime;
     private ResultsDBOpenHelper resultsDBOpenHelper;
-    private boolean enableMusic;
+        private boolean enableMusic;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -135,6 +135,16 @@ public class MainActivity extends AppCompatActivity {
         imageViewRight = findViewById(R.id.iv_right);
         imageViewRight.setImageDrawable(AppCompatResources.getDrawable(this, R.drawable.r1));
         imageViewBottom.setImageDrawable(AppCompatResources.getDrawable(this, R.drawable.d1));
+    }
+    public void initCardSecondPattern() {
+        ImageView imageViewBottom, imageViewRight;
+        imageViewBottom = findViewById(R.id.iv_bottom);
+        imageViewRight = findViewById(R.id.iv_right);
+        imageViewRight.setImageDrawable(AppCompatResources.getDrawable(this, R.drawable.r2));
+        imageViewBottom.setImageDrawable(AppCompatResources.getDrawable(this, R.drawable.d2));
+    }
+    public void initCardThirdPattern() {
+        initCardFirstPattern();
     }
 
     public String loadUsername() {

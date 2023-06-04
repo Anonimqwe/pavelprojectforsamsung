@@ -13,7 +13,7 @@ import com.example.myapplication.model.Results;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ResultsDBOpenHelper extends SQLiteOpenHelper {
+    public class ResultsDBOpenHelper extends SQLiteOpenHelper {
     public static final String DATA_BASE_NAME = "Results.db";
     public static final int DATA_BASE_VERSION = 1;
     public static final String TABLE_NAME = "results";
